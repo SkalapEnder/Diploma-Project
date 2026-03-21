@@ -1,0 +1,42 @@
+# Byte-code files
+*.pyc
+__pycache__/
+*.pyd
+*.bin
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+wheels/
+*.egg-info/
+
+# Editor/IDE-specific files
+.project
+.idea/  # For PyCharm and other JetBrains IDEs
+.vscode/ # For VS Code
+*.swp
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Miscellaneous
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Data files
+# *.csv
+# *.json
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Credentials and sensitive files
+.env
