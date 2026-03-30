@@ -208,7 +208,7 @@ class MainWindow(QMainWindow):
         )
 
         if response.success:
-            self.put_statistics()
+            #self.put_statistics()
             self.call_info("Images processed successfully!")
         else:
             self.call_error("Error processing images: " + response.message)

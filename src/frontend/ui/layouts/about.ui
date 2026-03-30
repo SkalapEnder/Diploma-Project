@@ -146,7 +146,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Numpy</string>
+    <string/>
    </property>
    <property name="alignment">
     <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -167,7 +167,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Matplotlib</string>
+    <string>pybind11</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignmentFlag::AlignCenter</set>
