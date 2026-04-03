@@ -40,7 +40,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../../layouts/assets/icon.png</normaloff>../../layouts/assets/icon.png</iconset>
+    <normaloff>C:/Users/skala/layouts/assets/icon.png</normaloff>C:/Users/skala/layouts/assets/icon.png</iconset>
   </property>
   <property name="windowOpacity">
    <double>1.000000000000000</double>
@@ -55,7 +55,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>90</x>
       <y>520</y>
       <width>101</width>
       <height>31</height>
@@ -76,9 +76,9 @@
    <widget class="QListView" name="imageListViewer">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>60</y>
-      <width>271</width>
+      <width>281</width>
       <height>171</height>
      </rect>
     </property>
@@ -110,9 +110,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>310</y>
-      <width>271</width>
+      <width>281</width>
       <height>22</height>
      </rect>
     </property>
@@ -148,9 +148,9 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>280</y>
-      <width>271</width>
+      <width>281</width>
       <height>31</height>
      </rect>
     </property>
@@ -172,9 +172,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>340</y>
-      <width>251</width>
+      <width>261</width>
       <height>21</height>
      </rect>
     </property>
@@ -284,9 +284,9 @@
    <widget class="QPushButton" name="pushButtonLoadImages">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>240</y>
-      <width>81</width>
+      <width>91</width>
       <height>31</height>
      </rect>
     </property>
@@ -548,7 +548,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>180</y>
+      <y>390</y>
       <width>241</width>
       <height>21</height>
      </rect>
@@ -562,7 +562,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Process Time</string>
+     <string>MSE</string>
     </property>
     <property name="textFormat">
      <enum>Qt::TextFormat::RichText</enum>
@@ -575,7 +575,7 @@
     <property name="geometry">
      <rect>
       <x>920</x>
-      <y>150</y>
+      <y>310</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -602,7 +602,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>150</y>
+      <y>310</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -629,7 +629,7 @@
     <property name="geometry">
      <rect>
       <x>1010</x>
-      <y>150</y>
+      <y>310</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -652,38 +652,11 @@
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_18">
-    <property name="geometry">
-     <rect>
-      <x>840</x>
-      <y>460</y>
-      <width>241</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>true</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-     </font>
-    </property>
-    <property name="text">
-     <string>MAE</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::TextFormat::RichText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>250</y>
+      <y>440</y>
       <width>241</width>
       <height>21</height>
      </rect>
@@ -697,7 +670,7 @@
      </font>
     </property>
     <property name="text">
-     <string>PSNR</string>
+     <string>PSNR (dB)</string>
     </property>
     <property name="textFormat">
      <enum>Qt::TextFormat::RichText</enum>
@@ -710,7 +683,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>310</y>
+      <y>490</y>
       <width>241</width>
       <height>21</height>
      </rect>
@@ -724,7 +697,7 @@
      </font>
     </property>
     <property name="text">
-     <string>SSIM</string>
+     <string>SSIM (0-1)</string>
     </property>
     <property name="textFormat">
      <enum>Qt::TextFormat::RichText</enum>
@@ -737,7 +710,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>200</y>
+      <y>410</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -764,7 +737,7 @@
     <property name="geometry">
      <rect>
       <x>920</x>
-      <y>200</y>
+      <y>410</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -791,34 +764,7 @@
     <property name="geometry">
      <rect>
       <x>1010</x>
-      <y>200</y>
-      <width>81</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>false</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-     </font>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::TextFormat::RichText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="infoMAEMax">
-    <property name="geometry">
-     <rect>
-      <x>1010</x>
-      <y>490</y>
+      <y>410</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -845,7 +791,7 @@
     <property name="geometry">
      <rect>
       <x>1010</x>
-      <y>280</y>
+      <y>460</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -872,34 +818,7 @@
     <property name="geometry">
      <rect>
       <x>1010</x>
-      <y>340</y>
-      <width>81</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>false</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-     </font>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::TextFormat::RichText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="infoMAEAvg">
-    <property name="geometry">
-     <rect>
-      <x>920</x>
-      <y>490</y>
+      <y>510</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -926,7 +845,7 @@
     <property name="geometry">
      <rect>
       <x>920</x>
-      <y>280</y>
+      <y>460</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -953,34 +872,7 @@
     <property name="geometry">
      <rect>
       <x>920</x>
-      <y>340</y>
-      <width>81</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>false</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-     </font>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::TextFormat::RichText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="infoMAEMin">
-    <property name="geometry">
-     <rect>
-      <x>840</x>
-      <y>490</y>
+      <y>510</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -1007,7 +899,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>280</y>
+      <y>460</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -1034,7 +926,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>340</y>
+      <y>510</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -1111,9 +1003,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>400</y>
-      <width>121</width>
+      <width>131</width>
       <height>20</height>
      </rect>
     </property>
@@ -1138,9 +1030,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>460</y>
-      <width>111</width>
+      <width>121</width>
       <height>20</height>
      </rect>
     </property>
@@ -1183,9 +1075,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>430</y>
-      <width>111</width>
+      <width>121</width>
       <height>20</height>
      </rect>
     </property>
@@ -1348,153 +1240,6 @@
      <double>2.000000000000000</double>
     </property>
    </widget>
-   <widget class="QLabel" name="infoEdgeMin">
-    <property name="geometry">
-     <rect>
-      <x>840</x>
-      <y>420</y>
-      <width>81</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>false</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-     </font>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::TextFormat::RichText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="infoEdgeAvg">
-    <property name="geometry">
-     <rect>
-      <x>920</x>
-      <y>420</y>
-      <width>81</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>false</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-     </font>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::TextFormat::RichText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_38">
-    <property name="geometry">
-     <rect>
-      <x>840</x>
-      <y>390</y>
-      <width>241</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>true</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-     </font>
-    </property>
-    <property name="text">
-     <string>Edge</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::TextFormat::RichText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="infoEdgeMax">
-    <property name="geometry">
-     <rect>
-      <x>1010</x>
-      <y>420</y>
-      <width>81</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>false</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-     </font>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::TextFormat::RichText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="Line" name="line_4">
-    <property name="geometry">
-     <rect>
-      <x>850</x>
-      <y>440</y>
-      <width>221</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Orientation::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_5">
-    <property name="geometry">
-     <rect>
-      <x>850</x>
-      <y>370</y>
-      <width>221</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Orientation::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_6">
-    <property name="geometry">
-     <rect>
-      <x>850</x>
-      <y>230</y>
-      <width>221</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Orientation::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
@@ -1523,12 +1268,104 @@
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="numResizedImages">
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>290</y>
+      <width>221</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>40</y>
+      <width>251</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text">
+     <string>Processed images</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="imageListViewer_2">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>70</y>
+      <width>261</width>
+      <height>171</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonDeleteAll_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>250</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text">
+     <string>Delete All</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonDeleteImage_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>250</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="infoProcessTimeMin_2">
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>40</y>
-      <width>231</width>
+      <y>360</y>
+      <width>81</width>
       <height>21</height>
      </rect>
     </property>
@@ -1541,14 +1378,20 @@
      </font>
     </property>
     <property name="text">
-     <string>Resized images:</string>
+     <string>0</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::TextFormat::RichText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="chosenMethod">
+   <widget class="QLabel" name="label_18">
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>70</y>
+      <y>340</y>
       <width>241</width>
       <height>21</height>
      </rect>
@@ -1556,21 +1399,27 @@
     <property name="font">
      <font>
       <pointsize>10</pointsize>
-      <bold>false</bold>
+      <bold>true</bold>
       <underline>false</underline>
       <strikeout>false</strikeout>
      </font>
     </property>
     <property name="text">
-     <string>Method:</string>
+     <string>Process Time (s)</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::TextFormat::RichText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="chosenScale">
+   <widget class="QLabel" name="infoProcessTimeMax_2">
     <property name="geometry">
      <rect>
-      <x>840</x>
-      <y>100</y>
-      <width>231</width>
+      <x>1010</x>
+      <y>360</y>
+      <width>81</width>
       <height>21</height>
      </rect>
     </property>
@@ -1583,20 +1432,40 @@
      </font>
     </property>
     <property name="text">
-     <string>Scale:</string>
+     <string>0</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::TextFormat::RichText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="Line" name="line_7">
+   <widget class="QLabel" name="infoProcessTimeAvg_2">
     <property name="geometry">
      <rect>
-      <x>850</x>
-      <y>130</y>
-      <width>221</width>
-      <height>16</height>
+      <x>920</x>
+      <y>360</y>
+      <width>81</width>
+      <height>21</height>
      </rect>
     </property>
-    <property name="orientation">
-     <enum>Qt::Orientation::Horizontal</enum>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::TextFormat::RichText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
   </widget>
